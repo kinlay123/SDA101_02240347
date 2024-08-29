@@ -1,6 +1,6 @@
 table, th, td {
-    border: 1px solid black; border-collapse: collapse;
+    border: 1px solid rgb(155, 7, 7); border-collapse: collapse;
 }
 .text{
-    color: red;
+    color: rgb(209, 6, 6);
 }

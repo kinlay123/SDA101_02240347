@@ -1,0 +1,9 @@
+table, th, td{
+    border: 2px solid black; border-collapse: collapse;
+}
+th {
+    background-color: grey;
+}
+tr:nth-child(odd) {
+    background-color: grey;
+}
