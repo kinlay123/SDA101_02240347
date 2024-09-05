@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.boss a{
+    text-decoration: none;
+    color: rgb(250, 242, 242);
+}
+.boss ul{
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.boss{
+    background-color: rgb(14, 13, 13);
+}
+.boss a:hover{
+    color: gray;
+}
+.boss{
+    font-style: italic;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+ .product{
+    border: 2px solid black;
+} 
