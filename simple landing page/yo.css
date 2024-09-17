@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(https://wallpapercave.com/wp/wp14037821.gif);
+    background-image: url(https://wallpapercave.com/wp/wp14037690.gif);
 }
 .boss a{
     text-decoration: none;
@@ -19,12 +19,3 @@ body{
     font-style: italic;
     
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-}
- .product{
-    border: 2px solid black;
-} 
-

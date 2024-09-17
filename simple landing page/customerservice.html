@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="landing.css">
 </head>
 <h1><i><b>Customer Service</b></i></h1>
+
 <body>
+    <nav class="boss">
+        <ul>
+            <li><a href="landing.html">HOME  <br></a> </li>
+            <li><a href="product.html">PRODUCT  <br></a> </li> 
+            <li><a href="aboutus.html">ABOUT US  <br></a></li>  
+            <li><a href="customerservice.html">CONTACT US <br></a> </li>
+        
+        </ul>
+         
+    </nav>
+    <div class="container"></div>
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+                <dt>How can I reset my password?</dt>
+                <dd>You can reset your password by clicking on the "Forgot Password" link on the login page.</dd>
+
+                <dt>What is your return policy?</dt>
+                <dd>Our return policy allows for returns within 30 days of purchase. Please refer to our Returns page for more details.</dd>
+
+                <dt>How can I track my order?</dt>
+                <dd>Once your order has shipped, you will receive a tracking number via email. You can use this number to track your order on our website.</dd>
+            </dl>
+        </section>
+    </div>
     
 </body>
 </html>
