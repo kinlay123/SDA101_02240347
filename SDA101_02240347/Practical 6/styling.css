@@ -1,0 +1,7 @@
+form :hover{
+    background-color: gray;
+    font-style: italic;
+}
+body{
+    background-color: skyblue;
+}
