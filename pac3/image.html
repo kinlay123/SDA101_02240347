@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black-100 font-sans">
+    <!-- Header -->
+    <header class="bg-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="text-gray-800 font-bold text-xl">Logo</div>
+            <button class="text-gray-800 lg:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center px-4">
+            <div class="lg:w-1/2 flex justify-center lg:justify-start mb-8 lg:mb-0">
+                <img src="/SDA101_02240347/pac3/download (8).png" alt="Hero Image" class="rounded-lg shadow-lg w-72 h-72 object-cover">
+            </div>
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-4xl font-bold mb-4">Starting a new project or want to collaborate with us? <span class="text-orange-500">Let's talk!</span></h1>
+                <p class="mb-6">Image Hero Section</p>
+                <button class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-full">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="bg-orange-500 py-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-4">
+            <div class="bg-gray-100 p-6 rounded-lg text-center shadow">
+                <div class="text-orange-500 mb-2 text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17l4-4 4 4m0-6l-4-4-4 4" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Our Main Office</h3>
+                <p>Some Broadway St<br>NYC, NY 10036</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg text-center shadow">
+                <div class="text-orange-500 mb-2 text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6.54 10.45a5 5 0 015.08 8.56M8.12 18a1.76 1.76 0 10-2.1-2.82" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Phone Number</h3>
+                <p>234-345-8760</p>
+                <p>0988-883-8764 (Office)</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg text-center shadow">
+                <div class="text-orange-500 mb-2 text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232a6 6 0 010 8.485m-1.415 1.415a6 6 0 01-8.485 0m1.415-1.415a6 6 0 010-8.485" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Fax</h3>
+                <p>S 234-567-890</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg text-center shadow">
+                <div class="text-orange-500 mb-2 text-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v8l4-4M4 4h16v16H4V4z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Email</h3>
+                <p>support@domain.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get In Touch Form -->
+    <section class="bg-gray-50 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-center text-3xl font-bold mb-6">Get in touch</h2>
+            <p class="text-center text-gray-600 mb-8">
+                We can ensure reliability, low cost fares and most importantly, with safety and comfort in mind.
+            </p>
+            <div class="max-w-xl mx-auto">
+                <form class="space-y-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <input type="text" placeholder="Email" class="p-3 border rounded w-full">
+                        <input type="text" placeholder="Name" class="p-3 border rounded w-full">
+                    </div>
+                    <textarea placeholder="Message" rows="4" class="p-3 border rounded w-full"></textarea>
+                    <div class="text-center">
+                        <button type="submit" class="bg-orange-500 text-white px-6 py-2 rounded-full">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
