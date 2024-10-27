@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #333;
+}
+
+header nav ul li a:hover {
+    background-color: #444;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-section {
+    text-align: left;
+    margin-right: 20px;
+}
+
+.text-section h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.text-section .greeting {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.text-section .intro {
+    font-size: 20px;
+    color: #2ecc71;
+}
+
+.text-section .description {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.highlight {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.image-section {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, white, black);
+    top: 50%;
+    left: 0;
+    z-index: -1;
+}

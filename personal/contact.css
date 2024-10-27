@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.highlight {
+    color: #00FF00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 16px 24px;
+    background-color: #ddd;
+    border-radius: 12px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-left {
+    background-color: #111;
+    width: 20%;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.main-photo {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.main-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.username-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #00FF00;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.info-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.username {
+    font-size: 1.5rem;
+    color: #00FF00;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.followers-avatars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    border-radius: 50%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-item {
+    background-color: #555;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.profile-right {
+    width: 30%;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.qr-section img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.contact-details {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #00FF00;
+}
+
+.email-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.email-icon img {
+    width: 50px;
+}
