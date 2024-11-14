@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog API Ecample</title>
+    <style>
+    .dog image{
+        width: 350;
+        height: 550;
+        object-fit: cover;
+        margin: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1><i><b>Random Rochi <Picture></Picture></b></i></h1>
+    <div id="Rochi_image_container"></div>
+    <script>
+        fetch('https://dog.ceo/api/breed/pitbull/images/10')
+        .then(Response => response.json())
+        .then(data => {
+            const imageUrls = data.message;
+            const container = document.getElementById('dog-images-container')
+            imageUrls.forEach(url =>{
+                const img = document.createElement('img');
+                  img.src = url;
+                  img.alt = 'Random-Rochi_picture';
+                  img.classList.add('dog_image');
+                  container.appendChild(img);
+
+
+            })
+            
+        })
+
+        .catch(error => {
+            console.error("Error", error);
+
+        });
+    </script>
+    
+</body>
+</html>
